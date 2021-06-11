@@ -12,13 +12,12 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To My
+        Lawrence.
         <br />
-        Portfolio Website
+        Frontend Developer
       </SectionTitle>
       <SectionText>
-        I am a Frontend Web Developer specialising in JavaScript web
-        applications
+        I specialise in building JavaScript web applications.
       </SectionText>
       <Button onClick={() => (window.location = 'https://dev.to/narhlawson')}>
         Learn More
