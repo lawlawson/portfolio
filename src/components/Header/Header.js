@@ -5,7 +5,7 @@ import {
   AiFillLinkedin,
   AiFillTwitterCircle,
 } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { DiCode } from 'react-icons/di';
 
 import {
   Container,
@@ -28,7 +28,7 @@ const Header = () => (
             color: 'white',
             marginBottom: '20px',
           }}>
-          <DiCssdeck size='3rem' />
+          <DiCode size='3rem' />
           <Span>Portfolio</Span>
         </a>
       </Link>

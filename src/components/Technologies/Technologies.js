@@ -1,5 +1,15 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import {
+  DiFirebase,
+  DiReact,
+  DiJavascript1,
+  DiSass,
+  DiNodejs,
+  DiGit,
+  DiHtml5,
+  DiCss3,
+} from 'react-icons/di';
+import { SiTypescript, SiNextDotJs } from 'react-icons/si';
 import {
   Section,
   SectionDivider,
@@ -28,30 +38,90 @@ const Technologies = () => (
         <DiReact size='10rem' />
         <ListContainer>
           <ListTitle>React.js</ListTitle>
-          <ListParagraph>
+          {/* <ListParagraph>
             Experience with <br />
             React.js
-          </ListParagraph>
+          </ListParagraph> */}
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <DiJavascript1 size='10rem' />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
+          <ListTitle>JavaScript</ListTitle>
+          {/* <ListParagraph>
             Experience with <br />
             React.js
-          </ListParagraph>
+          </ListParagraph> */}
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <SiTypescript size='10rem' />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
+          <ListTitle>Typescript</ListTitle>
+          {/* <ListParagraph>
             Experience with <br />
             React.js
-          </ListParagraph>
+          </ListParagraph> */}
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <SiNextDotJs size='10rem' />
+        <ListContainer>
+          <ListTitle>Next.js</ListTitle>
+          {/* <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph> */}
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiSass size='10rem' />
+        <ListContainer>
+          <ListTitle>Sass</ListTitle>
+          {/* <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph> */}
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiNodejs size='10rem' />
+        <ListContainer>
+          <ListTitle>Node.js</ListTitle>
+          {/* <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph> */}
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiGit size='10rem' />
+        <ListContainer>
+          <ListTitle>Git</ListTitle>
+          {/* <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph> */}
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiHtml5 size='10rem' />
+        <ListContainer>
+          <ListTitle>HTML</ListTitle>
+          {/* <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph> */}
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiCss3 size='10rem' />
+        <ListContainer>
+          <ListTitle>CSS</ListTitle>
+          {/* <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph> */}
         </ListContainer>
       </ListItem>
     </List>
