@@ -26,12 +26,11 @@ import {
 
 const Technologies = () => (
   <Section id='tech'>
-    <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I have worked with a number of different Languages, Frameworks and
-      Technologies.
+      Technologies, below are a few of the ones I am most familiar with.
     </SectionText>
     <List>
       <ListItem>
@@ -107,7 +106,7 @@ const Technologies = () => (
       <ListItem>
         <DiHtml5 size='10rem' />
         <ListContainer>
-          <ListTitle>HTML</ListTitle>
+          <ListTitle>HTML5</ListTitle>
           {/* <ListParagraph>
             Experience with <br />
             React.js
@@ -117,7 +116,7 @@ const Technologies = () => (
       <ListItem>
         <DiCss3 size='10rem' />
         <ListContainer>
-          <ListTitle>CSS</ListTitle>
+          <ListTitle>CSS3</ListTitle>
           {/* <ListParagraph>
             Experience with <br />
             React.js
@@ -125,6 +124,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider colorAlt />
   </Section>
 );
 
