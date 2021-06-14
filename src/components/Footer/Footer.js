@@ -25,13 +25,15 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>&copy; Lawrence Narh-Lawson 2021</Slogan>
         </CompanyContainer>
-        <SocialIcons href='https://github.com/lawlawson'>
+        <SocialIcons target='_blank' href='https://github.com/lawlawson'>
           <AiFillGithub size='3rem' />
         </SocialIcons>
-        <SocialIcons href='https://www.linkedin.com/in/lawlawson/'>
+        <SocialIcons
+          target='_blank'
+          href='https://www.linkedin.com/in/lawlawson/'>
           <AiFillLinkedin size='3rem' />
         </SocialIcons>
-        <SocialIcons href='https://twitter.com/lawsoncodes'>
+        <SocialIcons target='_blank' href='https://twitter.com/lawsoncodes'>
           <AiFillTwitterCircle size='3rem' />
         </SocialIcons>
       </SocialIconsContainer>
