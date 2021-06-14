@@ -59,6 +59,8 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
+      <SectionDivider colorAlt />
+      <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I am a self-taught Frontend Web Developer specialising in JavaScript and

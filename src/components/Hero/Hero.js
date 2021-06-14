@@ -12,16 +12,15 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Lawrence.
+        Lawrence Narh-Lawson
         <br />
-        Frontend Developer
+        Frontend Developer.
       </SectionTitle>
       <SectionText>
-        I specialise in solving problems using web technologies.
+        I specialise in solving problems using web technologies. My primary
+        tools of choice are JavaScript and React.js.
       </SectionText>
-      <Button onClick={() => (window.location = 'https://dev.to/narhlawson')}>
-        Learn More
-      </Button>
+      <Button onClick={() => (window.location = '#projects')}>Projects</Button>
     </LeftSection>
   </Section>
 );
