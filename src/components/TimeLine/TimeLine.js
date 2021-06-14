@@ -60,7 +60,10 @@ const Timeline = () => {
   return (
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>I am a self-taught Frontend Web Developer!</SectionText>
+      <SectionText>
+        I am a self-taught Frontend Web Developer specialising in JavaScript and
+        React.js.
+      </SectionText>
       <SectionDivider />
     </Section>
   );
