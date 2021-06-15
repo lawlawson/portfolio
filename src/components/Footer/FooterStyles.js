@@ -56,6 +56,7 @@ export const SocialIconsContainer = styled.div`
     display: flex;
     width: 100%;
     flex-direction: column;
+    text-align: center;
   }
 `;
 
