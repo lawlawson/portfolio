@@ -17,10 +17,12 @@ const Hero = () => (
         Frontend Developer.
       </SectionTitle>
       <SectionText>
-        I specialise in solving problems using web technologies. My primary
-        tools of choice are JavaScript and React.js.
+        I am a passionate, self-motivated, front end web developer specialising
+        in React, who is continually learning and dedicated to delivering
+        high-impact digital products with a focus on quality testing, web
+        optimisation and accessibility.
       </SectionText>
-      <Button onClick={() => (window.location = '#projects')}>Projects</Button>
+      {/* <Button onClick={() => (window.location = '#projects')}>Projects</Button> */}
     </LeftSection>
   </Section>
 );

@@ -23,7 +23,7 @@ const Footer = () => {
     <FooterWrapper>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>&copy; Lawrence Narh-Lawson 2022</Slogan>
+          <Slogan>&copy; Lawrence Narh-Lawson 2022!!!</Slogan>
         </CompanyContainer>
         <SocialIcons target='_blank' href='https://github.com/lawlawson'>
           <AiFillGithub size='3rem' />
